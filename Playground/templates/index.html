@@ -1,0 +1,17 @@
+{% extends "layout_a.html" %}
+<!DOCTYPE HTML>
+<html>
+  <HEAD>
+    <<title>{{Course}} welcome page ! </title>
+</head>
+<body>
+  <h1> Student Roster for {{Course}} </h1>
+  <<ul>
+    {% for stydent in roster %}
+    <li> <b> {{student[0]}} </b> Grade is
+      <span style="color.red"> {{student[1]}}
+        </span>
+        {% end for %}
+  </ul>
+  </body>
+  </html>
