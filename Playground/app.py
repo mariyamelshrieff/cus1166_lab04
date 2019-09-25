@@ -3,5 +3,5 @@ app = flask(__name__)
 
 #app.py #/template/
 @app.route("/")
-def index();
+def index():
     return render_template("index.html")
