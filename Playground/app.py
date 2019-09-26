@@ -8,8 +8,8 @@ class_roster = [("Sam" , "A", "Sophomore"),
                 ("Stevie","B", "Freshman"),
                 ("Arly","C","Senior"),
                 ("Bodan", "A", "Sophomore"),
-                ("Mike", "B","Freshman")
-                ("Lauren","D","Senior")
+                ("Mike", "B","Freshman"),
+                ("Lauren","D","Senior"),
                 ("Joseph","A","Senior")]
 
 @app.route('/')
