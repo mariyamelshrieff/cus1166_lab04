@@ -1,9 +1,6 @@
 
-{% extends 'layout.html' %}
 
-
-
-{% if grade_view == 0 %}
+{% if grade_view == "D" %}
     <ul>
     {% for student in class_roster %}
         <li><strong>Name: </strong> {{student[0]}}, <strong> Grade: </strong>{{student[1]}}, <strong> Class Standing: </strong> {{student[2]}}</li>li>
@@ -11,14 +8,14 @@
 
     </ul>
     {% endif %}
-    {% if grade_view == 1 %}
+    {% if grade_view == "B" %}
     <ul>
     {% for student in class_roster %}
         <li><strong>Name: </strong> {{student[0]}}, <strong> Grade: </strong> {{student[1]}}</li>
     {% endfor %}
     </ul>
     {% endif %}
-    {% if grade_view == 2 %}
+    {% if grade_view == "A" %}
     <ul>
         {% for student in class_roster %}
         <li><strong> Name: </strong>{{student[0]}}, <strong> Class Standing: </strong> {{student[2]}}</li>
